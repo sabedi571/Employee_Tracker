@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sabedi571/Employee_Tracker"
+    "url": "git+https://github.com/sabedi571/Employee_Tracker.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "S Abedi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sabedi571/Employee_Tracker"
   },
@@ -23,5 +23,6 @@
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
     "mysql3": "^0.4.13"
-  }
+  },
+  "devDependencies": {}
 }

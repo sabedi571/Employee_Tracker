@@ -29,28 +29,28 @@ INSERT INTO department
     (name)
 VALUES
     ('Operations'),
-    ('Analystics'),
-    ('Marketing'),
-    ('Executive');
+    ('IT'),
+    ('Materials'),
+    ('Continous improvement');
 INSERT INTO role
     (title, salary, department_id)
 VALUES
-    ('General Manager', 11000000, 1),
-    ('Coach', 4000000, 1),
-    ('Team Lead Analyst', 15000000, 2),
-    ('Team Analyst', 8000000, 2),
-    ('Media Manager', 7000000, 3),
-    ('Media Specialist', 3000000, 3),
-    ('CEO', 45000000, 4),
-    ('CEO Assistant', 25000000, 4);
+    ('Plant Manager', 140000, 1),
+    ('Operations Manager', 120000, 1),
+    ('Production Manager', 110000, 1),
+    ('IT Engineer', 100000, 2),
+    ('Application Engineer', 100000, 2),
+    ('Materials Manager', 100000, 3),
+    ('Material Supervisor', 80000, 3),
+    ('POMS Supervisor', 80000, 4);
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
     ('John', 'Smith', 1, NULL),
-    ('Carl', 'Sagan', 2, 1),
-    ('Johnathan', 'Wick', 3, NULL),
-    ('Jason', 'Borne', 4, 3),
-    ('Ethan', 'Hunt', 5, NULL),
-    ('Samo', 'Huang', 6, 5),
-    ('Jacki', 'Chan', 7, NULL),
-    ('Jet', 'Li', 8, 7);
+    ('Jinnah', 'Ali', 2, 1),
+    ('Asif', 'Bhutto', 3, 2),
+    ('Imran', 'Khan', 4, 3),
+    ('Bruce', 'Wayne', 5, NULL),
+    ('Tony', 'Stark', 6, 5),
+    ('Dick', 'Greyson', 7, 5),
+    ('Jason', 'Todd', 8, 7);
